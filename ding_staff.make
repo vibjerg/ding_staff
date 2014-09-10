@@ -23,13 +23,13 @@ projects[ding_event][download][url] = "git@github.com:ding2tal/ding_event.git"
 projects[ding_event][download][tag] = "7.x-1.0-rc7"
 
 projects[email][subdir] = "contrib"
-projects[email][version] = "1.2"
+projects[email][version] = "1.3"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.3"
+projects[entity][version] = "1.5"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-beta2"
+projects[features][version] = "2.0"
 
 projects[features_extra][subdir] = "contrib"
 projects[features_extra][version] = "1.0-beta1"
@@ -38,11 +38,12 @@ projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.1"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-alpha2"
+projects[file_entity][version] = "2.0-alpha3"
 
 projects[jquery_update][subdir] = "contrib"
-projects[jquery_update][version] = "2.3"
+projects[jquery_update][version] = "2.4"
 
+; This version of media is tested to work with both images and videos.
 projects[media][type] = "module"
 projects[media][subdir] = "contrib"
 projects[media][download][type] = "git"
@@ -62,7 +63,7 @@ projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.7"
+projects[views][version] = "3.8"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "3.1"
+projects[views_bulk_operations][version] = "3.2"
