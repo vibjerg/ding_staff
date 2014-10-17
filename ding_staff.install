@@ -125,7 +125,7 @@ function ding_staff_update_7004() {
   if (!db_table_exists('og')) {
     return;
   }
-
+  // Benytter et mix af chaining (->condition) og $query->fields. Det ville være mere læseligt med det ene eller andet.
   $query = db_select('field_data_og_group_ref', 'group_ref');
   $query->join('og', 'og', 'group_ref.og_group_ref_target_id = og.gid');
   $query->fields('group_ref', array('entity_id', 'og_group_ref_target_id'))
